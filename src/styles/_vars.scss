@@ -1,0 +1,43 @@
+//colors
+$purple: #9b59b6;
+$white: white;
+$red: #FF5F53;
+$btn-red: #F22613;
+$green: #57B08F;
+$bg-gray: #ecf0f1;
+$darkgray: #6C7A89;
+$lightgray: rgba(255, 255, 255, 0.4);
+
+//Typography
+$font: 'Tahoma';
+$font-size-base: 1rem;
+$title-large: $font-size-base * 1;
+$title-medium: $font-size-base * .5;
+$letter-spacing: 2px;
+
+//Positioning
+$base-width: 60%;
+$base-padding: 20px;
+$base-height: 600px;
+$base-margin: $base-padding;
+$line-height: 30px;
+
+$ans-padding: 8px;
+$ans-padding-left: $base-padding + 10;
+$ans-width: $base-width + 25%;
+$ans-margin: 5px;
+$ans-height: 45px;
+
+$btn-height: $ans-height;
+$btn-padding: 7px;
+
+$flash-width: $base-width - 20%;
+
+//Style
+$shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+
+$radius: 6px;
+
+$transition: all 0.5s;
+
+$btn-border: 2px solid black;

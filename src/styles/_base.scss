@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: $font-size-base;
+    background-color: $bg-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+li {
+    font-family: $font;
+    color: $white;
+    letter-spacing: $letter-spacing;
+}
+
+button {
+    outline: none;
+    font-family: $font;
+    font-size: $font-size-base;
+    color: $white;
+    letter-spacing: $letter-spacing;
+    cursor: pointer;
+    margin-top: $base-margin;
+    height: $btn-height;
+    border: none;
+    border-bottom: $btn-border;
+    padding: $btn-padding;
+    border-radius: $radius;
+    background-color: $btn-red;
+    font-weight: lighter;
+    box-shadow: $shadow;
+    width: 200px;
+}
